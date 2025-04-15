@@ -5,7 +5,7 @@
   justify-content: space-between;
   width: 300px;
   border: 1px solid black;
-    padding: 10px;
+  padding: 10px 20px;
     border-radius: 10px;
 }
 
@@ -17,9 +17,14 @@ p {
   
   display: flex;
   align-items: center;
+  font-size: 19px;
 }
 
 .deleteBtn {
     font-size: 14px;
     text-transform: uppercase;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #f84f4f;
+    cursor: pointer;
 }
